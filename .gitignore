@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# dotenv and environment files
+.env
+
+# Credentials and secrets
+credentials/
+*.json
+*.pem
+*.key
+
+# Uvicorn logs
+*.log
+
+# Docker
+*.tar
+*.bak
+*.tmp
+*.swp
+
+# VS Code settings
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+coverage/
+
+# Jupyter notebooks (optional)
+.ipynb_checkpoints/
+
+# Cloud Build / Artifact Registry
+.gcloud/
